@@ -52,7 +52,7 @@
 			"move": "Pavilion/amtWalksteps.wav",
 			"wince": "Pavilion/amtHit2.wav"
  		},
-		"speed" : 6,
+		"speed" : 7,
 		"abilities" :
 		{
 
