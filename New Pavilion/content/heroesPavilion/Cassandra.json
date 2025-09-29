@@ -32,9 +32,9 @@
 				"min" : 15
 			},
 			{
-				"creature" : "wadjet",
-				"max" : 9,
-				"min" : 7
+				"creature" : "firstAidTent",
+				"max" : 1,
+				"min" : 1
 			},
 			{
 				"creature" : "camelRider",
@@ -47,11 +47,11 @@
 		[
 			{
 				"level" : "basic",
-				"skill" : "resistance"
+				"skill" : "leadership"
 			},
 			{
 				"level" : "basic",
-				"skill" : "diplomacy"
+				"skill" : "firstAid"
 			}
 		],
 		

@@ -55,7 +55,7 @@
 			}	
 		},
 		"growth" : 4,
-		"hitPoints" : 25,
+		"hitPoints" : 30,
 		"level" : 4,
         "upgrades":
 		[

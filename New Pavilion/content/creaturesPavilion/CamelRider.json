@@ -58,7 +58,18 @@
 		"speed" : 7,
 		"abilities" :
 		{
-
+        "desertRider" : 
+			{
+				"subtype" : "heroMovementLand",
+				"type" : "MOVEMENT",
+				"val" : 150,
+				"valueType" : "ADDITIVE_VALUE",
+				"limiters": [ {
+					"type":"CREATURE_TERRAIN_LIMITER",
+					"parameters": [ "sand" ]
+				} ],
+				"propagator": "HERO"
+			} 
 		},
 		"stackExperience" :
 		[

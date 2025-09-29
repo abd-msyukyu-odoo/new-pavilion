@@ -10,16 +10,16 @@
 			"biography" : "Zamonth could never accept that necromantic arts had been banned by the priest caste. It was only because of his almost divine status that he was allowed to keep dark tomes containing the forbidden knowledge.",
 			"specialty" :
 			{
-				"description" : "Transforms undead creatures into Mummies.",
-				"tooltip" : "Special Upgrade: Mummies",
-				"name" : "Mummies"
+				"description" : "Transforms undead creatures into Wraiths.",
+				"tooltip" : "Special Upgrade: Wraiths",
+				"name" : "Wraiths"
 			}
 		},
 		
 		"images" :
 		{
-			"specialtySmall" : "speciconsPavilion/un32Mummy.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44Mummy.bmp",
+			"specialtySmall" : "speciconsPavilion/Un32Wights.png",
+			"specialtyLarge" : "speciconsPavilion/Un44Wights.png",
 			"large" : "heroportraitsPavilion/Zamonth.png",
 			"small" : "heroportraitsPavilion/ZamonthSmall.png"
 		},
@@ -30,19 +30,19 @@
 		"army" :
 		[
 			{
-				"creature" : "mummy",
-				"max" : 2,
-				"min" : 2
+				"creature" : "wraith",
+				"max" : 4,
+				"min" : 4
 			},
 			{
-				"creature" : "mummy",
-				"max" : 2,
-				"min" : 2
+				"creature" : "wraith",
+				"max" : 4,
+				"min" : 4
 			},
 			{
-				"creature" : "mummy",
-				"max" : 2,
-				"min" : 2
+				"creature" : "wraith",
+				"max" : 4,
+				"min" : 4
 			}
 		],
 
@@ -59,26 +59,38 @@
 		],
 		
 		"specialty" : {
+			"creature":"wraith",
 			"base" : {
-				"addInfo" : "creature.mummy",
+				"addInfo" : "creature.wraith",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				
-				"skeleton2mummy" : { "subtype" : "creature.skeleton" },
-				"skeletonWarrior2mummy" : { "subtype" : "creature.skeletonWarrior" },
-				"walkingDead2mummy" : { "subtype" : "creature.walkingDead" },
-				"zombie2mummy" : { "subtype" : "creature.zombie" },
-				"wight2mummy" : { "subtype" : "creature.wight" },
-				"wraith2mummy" : { "subtype" : "creature.wraith" },
-				"vampire2mummy" : { "subtype" : "creature.vampire" },
-				"vampireLord2mummy" : { "subtype" : "creature.vampireLord" },
-				"lich2mummy" : { "subtype" : "creature.lich" },
-				"powerLich2mummy" : { "subtype" : "creature.powerLich" },
-				"blackKnight2mummy" : { "subtype" : "creature.blackKnight" },
-				"dreadKnight2mummy" : { "subtype" : "creature.dreadKnight" },
-				"boneDragon2mummy" : { "subtype" : "creature.boneDragon" },
-				"ghostDragon2mummy" : { "subtype" : "creature.ghostDragon" }
+				"wight2wraith" : { "subtype" : "creature.wight" },
+				"mummy2wraith" : { "subtype" : "creature.mummy" },
+				"vampire2wraith" : { "subtype" : "creature.vampire" },
+				"vampireLord2wraith" : { "subtype" : "creature.vampireLord" },
+				"lich2wraith" : { "subtype" : "creature.lich" },
+				"powerLich2wraith" : { "subtype" : "creature.powerLich" },
+				"blackKnight2wraith" : { "subtype" : "creature.blackKnight" },
+				"dreadKnight2wraith" : { "subtype" : "creature.dreadKnight" },
+				"boneDragon2wraith" : { "subtype" : "creature.boneDragon" },
+				"ghostDragon2wraith" : { "subtype" : "creature.ghostDragon" },
+				"wraithsNecromancy": {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.wraith",
+					"addInfo" : 1,
+					"val" : 0
+				},
+				"fatWraith":{
+					"type": "STACK_HEALTH",
+					"val": 12,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [ "wraith", true ]
+						}
+					]
+				}
 			}
 		}	
 	}

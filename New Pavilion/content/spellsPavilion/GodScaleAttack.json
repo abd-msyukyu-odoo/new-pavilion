@@ -44,8 +44,8 @@
 					"scaledAttack" : {
 						"type" : "PRIMARY_SKILL",
 						"subtype" : "primarySkill.attack",
-						"val" : 0,
-						"valueType" : "INDEPENDENT_MIN",
+						"val" : -50,
+						"valueType" : "PERCENT_TO_BASE",
 						"duration" : "N_TURNS"
 					}
 					}

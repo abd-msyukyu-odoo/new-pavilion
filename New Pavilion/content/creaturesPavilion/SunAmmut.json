@@ -42,7 +42,7 @@
 		},
 	    "doubleWide" : true,
         "growth" : 3,
-		"hitPoints" : 50,
+		"hitPoints" : 55,
 		"level" : 5,
 		"sound" :
 		{
@@ -52,7 +52,7 @@
 			"move": "Pavilion/amtWalksteps.wav",
 			"wince": "Pavilion/amtHit2.wav"
  		},
-		"speed" : 6,
+		"speed" : 8,
 		"abilities" :
 		{
 
@@ -63,11 +63,17 @@
 			
 			"lifeEater" :
 			{
-				"type": "SPELL_AFTER_ATTACK",
+				"type": "SPELL_BEFORE_ATTACK",
 				"subtype" : "spell.lifeEater",
 				"val" : 100, 
 				"duration": "N_TURNS"
-			}	
+			},
+			"lifeRegen":
+			{
+				"type": "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.lifeRegen",
+				"val" : 100
+			}
 
 		},
 		"stackExperience" :

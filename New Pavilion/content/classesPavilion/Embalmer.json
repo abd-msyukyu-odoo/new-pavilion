@@ -26,10 +26,10 @@
 		},
 		"lowLevelChance" :
 		{
-			"attack"     : 30,
+			"attack"     : 20,
 			"defence"    : 10,
 			"spellpower" : 40,
-			"knowledge"  : 20
+			"knowledge"  : 30
 		},
 		"highLevelChance" :
 		{
@@ -40,10 +40,10 @@
 		},
 		"secondarySkills" :
 		{
-			"pathfinding"  : 0,
+			"pathfinding"  : 8,
 			"archery"      : 3,
 			"logistics"    : 6,
-			"scouting"     : 2,
+			"scouting"     : 3,
 			"diplomacy"    : 2,
 			"navigation"   : 3,
 			"leadership"   : 1,
@@ -55,7 +55,7 @@
 			"necromancy"   : 0,
 			"estates"      : 6,
 			"fireMagic"    : 3,
-			"airMagic"     : 0,
+			"airMagic"     : 1,
 			"waterMagic"   : 3,
 			"earthMagic"   : 6,
 			"scholar"      : 8,
@@ -66,7 +66,7 @@
 			"armorer"      : 4,
 			"intelligence" : 6,
 			"sorcery"      : 5,
-			"resistance"   : 1,
+			"resistance"   : 0,
 			"firstAid"     : 10
 		},
 		

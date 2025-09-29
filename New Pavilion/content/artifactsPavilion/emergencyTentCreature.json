@@ -11,7 +11,7 @@
 		"faction" : "neutral",
 		"fightValue" : 500,
 		"growth" : 0,
-		"hitPoints" : 150,
+		"hitPoints" : 500,
         "doubleWide" : true,
 		"level" : 3,
 		"speed" : 0,

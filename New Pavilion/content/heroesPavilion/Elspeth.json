@@ -10,9 +10,9 @@
 			"biography" : "Elspeth braved the endless desert uncountable number of times and seems to know all of its secrets by heart. All of her troops always seem invigorated and filled with unknown force, perhaps thanks to the fabled spring of life?",
 			"specialty" :
 			{
-				"description" : "All creatures receive +5% Health.",
-				"tooltip" : "+5% Health",
-				"name" : "Passive Bonus: Life Source"
+				"description" : "All creatures receive +1% Health per hero level",
+				"tooltip" : "Increased Health",
+				"name" : "Life Source"
 			}
 		},
 		
@@ -64,8 +64,9 @@
 				},
 				"health2": {
 					"type" : "STACK_HEALTH",
-					"val" : 4,
-					"valueType" : "PERCENT_TO_BASE"
+					"val" : 1,
+					"valueType" : "PERCENT_TO_BASE",
+               		"updater" : "TIMES_HERO_LEVEL"
 				}	
 			}
 		}

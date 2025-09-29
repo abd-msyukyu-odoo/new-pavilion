@@ -1,7 +1,7 @@
 {
-	"lifeEater" : {
+"lifeRegen" : {
 		"type": "ability",
-		"name": "Life Eater",
+		"name": "Life Regen",
 		"school":
 		{
 			"air": false,
@@ -16,19 +16,8 @@
 		"gainChance":
 		{
 		},
-		"animation":{
-			"affect":[{"defName":"spellsPavilion/LifeEaterSpell", "verticalPosition":"top"}]
-		},
 		"flags" : {"positive": true
 					},
-		"sounds": {
-			"cast": "PROTECTE"
-		},
-		"graphics":
-		{
-			"iconImmune":"spellsPavilion/placeholder.bmp",
-			"iconEffect": "spellsPavilion/LifeEaterEffect.bmp"
-		},
 		"levels" : {
 			"base":{
 		
@@ -41,21 +30,13 @@
 					"smart": true
 				},
 				"battleEffects":{
-
-					"lifeEater" :
-					{
-					"type": "core:timed",
-					"cumulative": true,
-					"bonus":
-					{
-					"lifeEffect":
-                    {
-                        "type": "STACK_HEALTH",
-                        "val" : 10,
-                        "duration": "N_TURNS"
-					}
-				}
-			}
+                "lifeHeal":
+                {
+                    "type":"core:heal",
+                    "healLevel":"heal",
+                    "minFullUnits": 0,
+                    "healPower":"permanent"
+                }
 				},
 				"description": "The devourer grows stronger with each bite."
 			},

@@ -63,7 +63,7 @@
 				"fireShield": {
 					"type": "OPENING_BATTLE_SPELL",
 					"subtype": "spell.fireShield",
-					"val" : 2
+					"val" : 7
 			    }
 			}
 		}

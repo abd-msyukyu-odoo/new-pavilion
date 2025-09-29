@@ -373,7 +373,7 @@
 					"cost" : 
 					{
 						"gold" : 2500,
-						"crystal" : 10
+						"crystal" : 5
 					},
 					"requires" : [ "allOf", ["dwellingLvl2"], ["fort"] ],
 					"id" : 33

@@ -40,7 +40,7 @@
 		},
 		"secondarySkills" :
 		{
-			"pathfinding"  : 0,
+			"pathfinding"  : 8,
 			"archery"      : 5,
 			"logistics"    : 8,
 			"scouting"     : 6,
@@ -57,7 +57,7 @@
 			"fireMagic"    : 2,
 			"airMagic"     : 0,
 			"waterMagic"   : 2,
-			"earthMagic"   : 3,
+			"earthMagic"   : 2,
 			"scholar"      : 1,
 			"tactics"      : 8,
 			"artillery"    : 6,
@@ -66,7 +66,7 @@
 			"armorer"      : 7,
 			"intelligence" : 4,
 			"sorcery"      : 4,
-			"resistance"   : 7,
+			"resistance"   : 0,
 			"firstAid"     : 6
 		},
 		
