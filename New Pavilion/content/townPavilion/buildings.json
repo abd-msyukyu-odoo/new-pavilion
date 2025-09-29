@@ -346,7 +346,7 @@
 					"name" : "Altar of Goddess",
 					"cost" : {
 						"gold" : 2500,
-						"crystal" : 10
+						"crystal" : 5
 					},
 					"requires" : [
 						"allOf",

@@ -8,7 +8,7 @@
 			"name" : "Varn",
 			"biography" : "The only thing Varn could remember when he woke up in the middle of the desert, was his name. He wanders seeking answers to the mystery of his past and his purpose.",
 			"specialty" : {
-				"description" : "Increases the speed of Anubians or Divine Anubians by 1 and their Attack and Defense skills by 5% for every 7 levels (rounded up).",
+				"description" : "Increases the speed of Anubians or Divine Anubians by 1 and their Attack and Defense skills by 20% for every 7 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Anubians",
 				"name" : "Anubians"
 			}

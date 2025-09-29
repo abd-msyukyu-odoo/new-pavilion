@@ -46,7 +46,7 @@
 			"move" : "MANTMOVE",
 			"wince" : "Pavilion/sphxHit.wav"
 		},
-		"speed" : 9,
+		"speed" : 10,
 		"abilities" : {
 			"canFly" : {
 				"type" : "FLYING"

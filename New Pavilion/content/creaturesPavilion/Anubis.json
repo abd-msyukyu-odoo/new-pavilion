@@ -12,14 +12,14 @@
 		"aiValue" : 3850,
 		"attack" : 20,
 		"cost" : {
-			"gold" : 2000,
+			"gold" : 2200,
 			"mercury" : 1
 		},
 		"damage" : {
-			"max" : 40,
+			"max" : 55,
 			"min" : 35
 		},
-		"defense" : 15,
+		"defense" : 17,
 		"fightValue" : 3650,
 		"graphics" : {
 			"animation" : "creaturedefsPavilion/newAnubis1.def",
@@ -48,16 +48,16 @@
 			"wince" : "Pavilion/anubHit2.wav",
 			"shoot" : "Pavilion/anubShoot.wav"
 		},
-		"speed" : 9,
+		"speed" : 11,
 		"abilities" : {
 			"advancedSlayer" : {
 				"type" : "KING",
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"earthImmunity" : {
+			"fireImmunity" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
-				"subtype" : "earth"
+				"subtype" : "fire"
 			},
 			"levitate" : {
 				"type" : "FLYING",

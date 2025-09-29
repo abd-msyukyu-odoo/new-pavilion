@@ -54,7 +54,7 @@
 				"subtype" : "gold",
 				"val" : 50,
 				"propagator" : "HERO",
-				"stacking" : "base",
+				"stacking" : "whipper",
 				"description" : "{Generate Gold}\nThe presence of any Whipper in hero army produces 50 gold every day",
 				"icon" : "bonusiconsPavilion/gold.png"
 			}

@@ -45,7 +45,7 @@
 			"move" : "Pavilion/wadjWalk.wav",
 			"wince" : "Pavilion/wadjHit.wav"
 		},
-		"speed" : 8,
+		"speed" : 9,
 		"abilities" : {
 			"canFly" : {
 				"type" : "FLYING"

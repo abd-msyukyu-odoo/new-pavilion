@@ -7,15 +7,15 @@
 			"name" : "Zamonth",
 			"biography" : "Zamonth could never accept that necromantic arts had been banned by the priest caste. It was only because of his almost divine status that he was allowed to keep dark tomes containing the forbidden knowledge.",
 			"specialty" : {
-				"description" : "Transforms undead creatures into Mummies.",
-				"tooltip" : "Special Upgrade: Mummies",
-				"name" : "Mummies"
+				"description" : "Transforms Wights and Mummies into empowered Wraiths. Raise Wights.",
+				"tooltip" : "Special Upgrade: Wraiths",
+				"name" : "Wraiths"
 			}
 		},
 
 		"images" : {
-			"specialtySmall" : "speciconsPavilion/un32Mummy.bmp",
-			"specialtyLarge" : "speciconsPavilion/un44Mummy.bmp",
+			"specialtySmall" : "speciconsPavilion/Un32Wights.png",
+			"specialtyLarge" : "speciconsPavilion/Un44Wights.png",
 			"large" : "heroportraitsPavilion/Zamonth.png",
 			"small" : "heroportraitsPavilion/ZamonthSmall.png"
 		},
@@ -24,19 +24,19 @@
 		],
 		"army" : [
 			{
-				"creature" : "mummy",
-				"max" : 2,
-				"min" : 2
+				"creature" : "wight",
+				"max" : 4,
+				"min" : 4
 			},
 			{
-				"creature" : "mummy",
-				"max" : 2,
-				"min" : 2
+				"creature" : "wight",
+				"max" : 4,
+				"min" : 4
 			},
 			{
-				"creature" : "mummy",
-				"max" : 2,
-				"min" : 2
+				"creature" : "wight",
+				"max" : 4,
+				"min" : 4
 			}
 		],
 
@@ -52,52 +52,62 @@
 		],
 
 		"specialty" : {
+			"creature" : "wight",
 			"base" : {
-				"addInfo" : "mummy",
+				"addInfo" : "creature.wraith",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"skeleton2mummy" : {
-					"subtype" : "skeleton"
+				"wight2wraith" : {
+					"subtype" : "creature.wight"
 				},
-				"skeletonWarrior2mummy" : {
-					"subtype" : "skeletonWarrior"
+				"mummy2wraith" : {
+					"subtype" : "creature.mummy"
 				},
-				"walkingDead2mummy" : {
-					"subtype" : "walkingDead"
+				"wraithsNecromancy" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.wight",
+					"addInfo" : 1,
+					"val" : 0
 				},
-				"zombie2mummy" : {
-					"subtype" : "zombie"
+				"fatWights" : {
+					"type" : "STACK_HEALTH",
+					"val" : 12,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"wight",
+								true
+							]
+						}
+					]
+				}
+			}
+		}
+	},
+
+	"core:charna" : {
+		"specialty" : {
+			"bonuses" : {
+				"wraithsNecromancy" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "creature.wight",
+					"addInfo" : 1,
+					"val" : 0
 				},
-				"wight2mummy" : {
-					"subtype" : "wight"
-				},
-				"wraith2mummy" : {
-					"subtype" : "wraith"
-				},
-				"vampire2mummy" : {
-					"subtype" : "vampire"
-				},
-				"vampireLord2mummy" : {
-					"subtype" : "vampireLord"
-				},
-				"lich2mummy" : {
-					"subtype" : "lich"
-				},
-				"powerLich2mummy" : {
-					"subtype" : "powerLich"
-				},
-				"blackKnight2mummy" : {
-					"subtype" : "blackKnight"
-				},
-				"dreadKnight2mummy" : {
-					"subtype" : "dreadKnight"
-				},
-				"boneDragon2mummy" : {
-					"subtype" : "boneDragon"
-				},
-				"ghostDragon2mummy" : {
-					"subtype" : "ghostDragon"
+				"fatWights" : {
+					"type" : "STACK_HEALTH",
+					"val" : 12,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"parameters" : [
+								"wight",
+								true
+							]
+						}
+					]
 				}
 			}
 		}

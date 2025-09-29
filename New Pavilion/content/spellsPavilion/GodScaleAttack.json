@@ -36,7 +36,7 @@
 
 		"levels" : {
 			"base" : {
-				"description" : "Attack scaled down to 0.",
+				"description" : "Attack halved.",
 				"cost" : 0,
 				"power" : 1,
 				//				"aiValue": 0,
@@ -47,9 +47,9 @@
 				"effects" : {
 					"scaledAttack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "attack",
-						"val" : 0,
-						"valueType" : "INDEPENDENT_MIN",
+						"subtype" : "primarySkill.attack",
+						"val" : -50,
+						"valueType" : "PERCENT_TO_BASE",
 						"duration" : "N_TURNS"
 					}
 				}

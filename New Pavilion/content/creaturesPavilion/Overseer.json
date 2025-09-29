@@ -48,19 +48,10 @@
 			"tribute" : {
 				"type" : "GENERATE_RESOURCE",
 				"subtype" : "gold",
-				"val" : 50,
+				"val" : 75,
 				"propagator" : "HERO",
-				"stacking" : "base",
-				"description" : "{Generate Gold}\nThe presence of any Whipper in hero army produces 75 gold every day",
-				"icon" : "bonusiconsPavilion/gold.png"
-			},
-
-			"tribute2" : {
-				"type" : "GENERATE_RESOURCE",
-				"subtype" : "gold",
-				"val" : 25,
-				"propagator" : "HERO",
-				"description" : "{Generate Gold}\nThe presence of any Whipper in hero army produces 75 gold every day",
+				"stacking" : "whipper",
+				"description" : "{Generate Gold}\nThe presence of any Overseer in hero army produces 75 gold every day",
 				"icon" : "bonusiconsPavilion/gold.png"
 			}
 		},

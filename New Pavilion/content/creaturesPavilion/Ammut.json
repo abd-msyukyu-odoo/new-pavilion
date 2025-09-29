@@ -34,7 +34,7 @@
 		},
 		"doubleWide" : true,
 		"growth" : 3,
-		"hitPoints" : 45,
+		"hitPoints" : 50,
 		"level" : 5,
 		"upgrades" : [
 			"sunAmmut"
@@ -46,7 +46,7 @@
 			"move" : "Pavilion/amtWalksteps.wav",
 			"wince" : "Pavilion/amtHit2.wav"
 		},
-		"speed" : 5,
+		"speed" : 7,
 		"abilities" : {
 			"noRetaliate" : {
 				"type" : "BLOCKS_RETALIATION"

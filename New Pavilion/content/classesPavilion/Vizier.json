@@ -39,7 +39,7 @@
 			"knowledge" : 20
 		},
 		"secondarySkills" : {
-			"pathfinding" : 0,
+			"pathfinding" : 8,
 			"archery" : 5,
 			"logistics" : 8,
 			"scouting" : 6,
@@ -65,7 +65,7 @@
 			"armorer" : 7,
 			"intelligence" : 4,
 			"sorcery" : 4,
-			"resistance" : 7,
+			"resistance" : 0,
 			"firstAid" : 6
 		},
 
